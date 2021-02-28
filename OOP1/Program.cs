@@ -18,7 +18,7 @@ namespace OOP1
             // case sensitive - C# küçük büyük harf duyarlıdır
             //PascalCase    //camelCase  -- isimlendirmede büyük küçük harf kullanımları   
             ProductManager productManager = new ProductManager();
-            productManager.Add();
+            productManager.Add(product1);
 
 
 
