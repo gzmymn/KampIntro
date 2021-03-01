@@ -11,7 +11,7 @@ namespace InterfaceAndAbstractDemo
         static void Main(string[] args)
         {
             BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-            customerManager.Save(new Customer {DateOfBirth= new DateTime(1994,9,29), FirstName="Gizem Kübra", LastName="Yaman", NationalityId=66655281010 }) ;
+            customerManager.Save(new Customer {DateOfBirth= new DateTime(1994,9,29), FirstName="Gizem", LastName="Yaman", NationalityId=11111111111 }) ;
             Console.ReadLine();
         }
     }
